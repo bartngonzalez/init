@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/01 02:28:20 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:33:07 by bgonzale         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+top
+
+# 13. Name the command that find, in real time, currently running processes
+# ...
+# or: sudo top
+# link: https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/

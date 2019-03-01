@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/26 18:17:27 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:59:39 by bgonzale         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+ifconfig -l
+
+# 1. Get the list of the network interfaces of the machine without
+# displaying any detail for these interfaces. Only the list of names.

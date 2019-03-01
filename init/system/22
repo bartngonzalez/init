@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    22                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/01 04:40:14 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:42:27 by bgonzale         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/bash
+sudo adduser bgonzale
+
+# 22. Find the command that add a new local user
+# ...
+# also but first option is better: sudo useradd [username]
