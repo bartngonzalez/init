@@ -6,12 +6,14 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 18:34:51 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 02:08:17 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 04:29:04 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 sudo hostname bgonzale
 
+# 2. What command can you use to rename your system?
+# ...
 # hostname to temporary change
 # not hostname hasn't changed (sh 03) to view actual hostname

@@ -6,13 +6,15 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 19:18:28 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 01:33:09 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 04:29:50 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
 sudo service ssh status
 
+# 5. Name the command that determines the state of the SSH service.
+# ...
 # Install
 # sudo apt-get update
 # sudo apt-get upgrade

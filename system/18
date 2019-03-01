@@ -1,16 +1,19 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    18                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 04:15:24 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:35:02 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+pkill ssh
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 18. Find the command that kills ssh service
+# ...
+# command that kills ssh service
+# sudo pkill ssh

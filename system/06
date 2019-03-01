@@ -6,12 +6,14 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 22:39:46 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 01:30:31 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 04:30:03 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin.bash
 sudo service ssh restart
 
+# 6. Name the command that reboots the SSH service.
+# ...
 # Usage
 # sudo service ssh {start|stop|reload|force-reload|restart|try-restart|status}

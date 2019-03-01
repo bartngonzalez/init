@@ -1,16 +1,20 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    16                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 03:02:30 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:34:20 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#!/bin/bash
-networksetup -getmacaddress Wi-Fi
+cron
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 16. Find the service which makes it possible to run
+# specific tasks following a regular schedule.
+# ...
+# simple example: crontab -l or sudo crontab -l
+# cron: schedule updates, and much more.
+# https://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/

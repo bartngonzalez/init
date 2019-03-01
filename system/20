@@ -1,16 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    20                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 04:23:02 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:35:46 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+cat /etc/passwd | cut -d ":" -f 1
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 20. List all existing users on the VM
+# ...
+# List all existing users on the VM

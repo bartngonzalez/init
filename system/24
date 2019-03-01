@@ -1,16 +1,18 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    24                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 04:58:07 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:58:49 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+apt list --installed
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 24. Find the command that list all packages
+# ..
+# or: sudo apt list --installed

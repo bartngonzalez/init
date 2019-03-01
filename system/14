@@ -1,16 +1,20 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    14                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 02:34:44 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:33:25 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+sudo tail -f /var/log/syslog &
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 14. Run the ‘tail -f /var/log/syslog‘ command in background
+# ...
+# Additional commands at: https://kb.iu.edu/d/afnz
+# check status enter: [jobs] or [sudo jobs]
+# To bring a background process to the foreground, enter: fg

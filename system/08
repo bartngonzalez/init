@@ -6,7 +6,7 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/01 01:06:06 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 01:21:21 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 04:30:47 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,6 +14,9 @@
 cat ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 
+# 8. What file contains the RSA keys of systems that are authorized to
+# connect via SSH?
+# ...
 # Before viewing the RSA keys, keys must be generated
 # How to generate
 # ssh-keygen

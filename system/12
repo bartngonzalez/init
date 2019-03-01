@@ -1,16 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    12                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 02:25:02 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:32:41 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+sudo du -sh /var/*
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 12. Figure out the exact size of each folder of /var in
+# a humanly understandable way followed by the path of it.

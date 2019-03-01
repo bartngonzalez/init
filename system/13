@@ -1,16 +1,19 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    03                                                 :+:      :+:    :+:    #
+#    13                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/26 20:22:42 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 05:00:19 by bgonzale         ###   ########.fr        #
+#    Created: 2019/03/01 02:28:20 by bgonzale          #+#    #+#              #
+#    Updated: 2019/03/01 04:33:07 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-networksetup -getmacaddress Wi-Fi
+top
 
-# 3. Identify the MAC address of the Wi-Fi card
+# 13. Name the command that find, in real time, currently running processes
+# ...
+# or: sudo top
+# link: https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
