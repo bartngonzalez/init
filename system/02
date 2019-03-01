@@ -6,7 +6,7 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 18:34:51 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 02:06:50 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 02:08:17 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,4 +14,4 @@
 sudo hostname bgonzale
 
 # hostname to temporary change
-# not hostname hasn't changed (sh 03) to view actual host name
+# not hostname hasn't changed (sh 03) to view actual hostname
