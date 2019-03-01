@@ -6,7 +6,7 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/28 19:18:28 by bgonzale          #+#    #+#              #
-#    Updated: 2019/02/28 22:41:04 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 00:37:34 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,7 @@ sudo service ssh status
 
 # Install
 # sudo apt-get purge openssh-server
+# sudo apt-get update
 # sudo apt-get install openssh-server
 # Usage
 # sudo service {start|stop|reload|force-reload|restart|try-restart|status}
