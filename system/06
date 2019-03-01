@@ -1,20 +1,17 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    05                                                 :+:      :+:    :+:    #
+#    06                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2019/02/28 19:18:28 by bgonzale          #+#    #+#              #
-#    Updated: 2019/02/28 22:41:04 by bgonzale         ###   ########.fr        #
+#    Created: 2019/02/28 22:39:46 by bgonzale          #+#    #+#              #
+#    Updated: 2019/02/28 22:42:43 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-#!/bin/bash
-sudo service ssh status
+#!/bin.bash
+sudo service restart
 
-# Install
-# sudo apt-get purge openssh-server
-# sudo apt-get install openssh-server
 # Usage
 # sudo service {start|stop|reload|force-reload|restart|try-restart|status}
