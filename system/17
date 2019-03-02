@@ -6,12 +6,12 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/01 03:21:05 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 21:40:56 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/02 00:12:09 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-shh user@ipaddress
+ssh user@ipaddress
 
 # 17. Find the command that allows you to connect via
 # ssh on the VM.(In parallel with the graphic session)
@@ -24,8 +24,8 @@ shh user@ipaddress
 # https://wpguru.co.uk/2014/02/
 # part of above link: how-to-ssh-into-a-virtual-machine-in-parallels-desktop/
 # sudo shh user@ipaddres
-# chmod 777 /etc/ssh/sshd_configs | etc/ssh/sshd_config
-# hint edit: vi /etc/ssh/sshd_configs | etc/ssh/sshd_config
+# chmod 777 /etc/ssh/sshd_configs
+# hint edit: vi /etc/ssh/sshd_configs
 # FROM:
 # PermitRootLogin without-password
 # TO:
