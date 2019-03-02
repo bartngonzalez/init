@@ -6,7 +6,7 @@
 #    By: bgonzale <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/01 03:21:05 by bgonzale          #+#    #+#              #
-#    Updated: 2019/03/01 04:34:47 by bgonzale         ###   ########.fr        #
+#    Updated: 2019/03/01 21:40:56 by bgonzale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,8 +24,8 @@ shh user@ipaddress
 # https://wpguru.co.uk/2014/02/
 # part of above link: how-to-ssh-into-a-virtual-machine-in-parallels-desktop/
 # sudo shh user@ipaddres
-# chmod 777 /etc/ssh/sshd_configs
-# hint edit: vi /etc/ssh/sshd_configs
+# chmod 777 /etc/ssh/sshd_configs | etc/ssh/sshd_config
+# hint edit: vi /etc/ssh/sshd_configs | etc/ssh/sshd_config
 # FROM:
 # PermitRootLogin without-password
 # TO:
